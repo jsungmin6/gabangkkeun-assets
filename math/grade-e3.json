@@ -2,13 +2,215 @@
   "gradeId": "e3",
   "label": "초등학교 3학년",
   "questions": [
-    { "id": "e3-001", "type": "multiple", "topic": "나눗셈", "text": "72 ÷ 8 = ?", "choices": ["7", "8", "9", "10"], "answer": "9" },
-    { "id": "e3-002", "type": "multiple", "topic": "분수", "text": "피자 한 판을 똑같이 4조각으로 나누었습니다. 3조각을 먹었다면 먹은 양을 분수로 나타내면? (예: 1/4)", "choices": ["1/4", "2/4", "3/4", "4/4"], "answer": "3/4" },
-    { "id": "e3-003", "type": "multiple", "topic": "원", "text": "원의 중심에서 원 위의 한 점까지의 거리를 무엇이라 하나요?", "choices": ["지름", "반지름", "둘레", "넓이"], "answer": "반지름" },
-    { "id": "e3-004", "type": "input", "topic": "세 자리 덧셈", "text": "456 + 378 = ?", "answer": "834" },
-    { "id": "e3-005", "type": "multiple", "topic": "세 자리 뺄셈", "text": "803 - 547 = ?", "choices": ["246", "256", "266", "346"], "answer": "256" },
-    { "id": "e3-006", "type": "input", "topic": "들이", "text": "1L는 몇 mL인가요?", "answer": "1000" },
-    { "id": "e3-007", "type": "multiple", "topic": "무게", "text": "1kg은 몇 g인가요?", "choices": ["10g", "100g", "1000g", "10000g"], "answer": "1000g" },
-    { "id": "e3-008", "type": "input", "topic": "곱셈", "text": "15 × 6 = ?", "answer": "90" }
+    {
+      "id": "e3-001",
+      "type": "multiple",
+      "topic": "나눗셈",
+      "text": "72 ÷ 8 = ?",
+      "choices": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": "e3-002",
+      "type": "multiple",
+      "topic": "분수",
+      "text": "피자 한 판을 똑같이 4조각으로 나누었습니다. 3조각을 먹었다면 먹은 양을 분수로 나타내면? (예: 1/4)",
+      "choices": [
+        "1/4",
+        "2/4",
+        "3/4",
+        "4/4"
+      ],
+      "answer": "3/4"
+    },
+    {
+      "id": "e3-004",
+      "type": "input",
+      "topic": "세 자리 덧셈",
+      "text": "456 + 378 = ?",
+      "answer": "834"
+    },
+    {
+      "id": "e3-005",
+      "type": "multiple",
+      "topic": "세 자리 뺄셈",
+      "text": "803 - 547 = ?",
+      "choices": [
+        "246",
+        "256",
+        "266",
+        "346"
+      ],
+      "answer": "256"
+    },
+    {
+      "id": "e3-007",
+      "type": "multiple",
+      "topic": "무게",
+      "text": "1kg은 몇 g인가요?",
+      "choices": [
+        "10g",
+        "100g",
+        "1000g",
+        "10000g"
+      ],
+      "answer": "1000g"
+    },
+    {
+      "id": "e3-008",
+      "type": "input",
+      "topic": "곱셈",
+      "text": "15 × 6 = ?",
+      "answer": "90"
+    },
+    {
+      "id": "e3-img-001",
+      "type": "multiple",
+      "topic": "직선/선분/반직선",
+      "difficulty": 3,
+      "text": "선분은 어느 것인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e3-img-001.png",
+      "choices": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(a)와 (c)"
+      ],
+      "answer": "(b)"
+    },
+    {
+      "id": "e3-img-002",
+      "type": "multiple",
+      "topic": "각의 종류",
+      "difficulty": 3,
+      "text": "직각은 어느 것인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e3-img-002.png",
+      "choices": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)"
+      ],
+      "answer": "(b)"
+    },
+    {
+      "id": "e3-img-003",
+      "type": "multiple",
+      "topic": "원의 지름",
+      "difficulty": 4,
+      "text": "원의 지름 AB가 6 cm일 때, 반지름 OC의 길이는 몇 cm인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e3-img-003.png",
+      "choices": [
+        "2 cm",
+        "3 cm",
+        "4 cm",
+        "6 cm"
+      ],
+      "answer": "3 cm"
+    },
+    {
+      "id": "e3-img-004",
+      "type": "multiple",
+      "topic": "직각 찾기",
+      "difficulty": 3,
+      "text": "직각인 것을 모두 고르면?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e3-img-004.png",
+      "choices": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)"
+      ],
+      "answer": "(b)"
+    },
+    {
+      "id": "e3-img-005",
+      "type": "multiple",
+      "topic": "분수 색칠",
+      "difficulty": 3,
+      "text": "색칠한 부분은 전체의 얼마인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e3-img-005.png",
+      "choices": [
+        "1/4",
+        "2/4",
+        "3/4",
+        "4/4"
+      ],
+      "answer": "3/4"
+    },
+    {
+      "id": "e3-img-006",
+      "type": "multiple",
+      "topic": "둘레 구하기",
+      "difficulty": 4,
+      "text": "이 직사각형의 둘레는 몇 cm인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e3-img-006.png",
+      "choices": [
+        "12 cm",
+        "14 cm",
+        "7 cm",
+        "24 cm"
+      ],
+      "answer": "14 cm"
+    },
+    {
+      "id": "e3-img-007",
+      "type": "multiple",
+      "topic": "원의 둘레",
+      "difficulty": 3,
+      "text": "반지름이 5 cm인 원의 지름은 몇 cm인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e3-img-007.png",
+      "choices": [
+        "5 cm",
+        "10 cm",
+        "15 cm",
+        "25 cm"
+      ],
+      "answer": "10 cm"
+    },
+    {
+      "id": "e3-img-008",
+      "type": "multiple",
+      "topic": "시계 읽기",
+      "difficulty": 4,
+      "text": "시계가 나타내는 시각은?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e3-img-008.png",
+      "choices": [
+        "2시 30분",
+        "2시 45분",
+        "3시 15분",
+        "9시 10분"
+      ],
+      "answer": "2시 45분"
+    },
+    {
+      "id": "e3-img-009",
+      "type": "multiple",
+      "topic": "들이 비교",
+      "difficulty": 3,
+      "text": "두 그릇에 담을 수 있는 들이의 합은 몇 mL인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e3-img-009.png",
+      "choices": [
+        "500 mL",
+        "700 mL",
+        "800 mL",
+        "1000 mL"
+      ],
+      "answer": "800 mL"
+    },
+    {
+      "id": "e3-img-010",
+      "type": "input",
+      "topic": "곱셈 배열",
+      "difficulty": 3,
+      "text": "점이 모두 몇 개인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e3-img-010.png",
+      "answer": "12"
+    }
   ]
 }
