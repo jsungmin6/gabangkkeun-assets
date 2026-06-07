@@ -2,13 +2,209 @@
   "gradeId": "e2",
   "label": "초등학교 2학년",
   "questions": [
-    { "id": "e2-001", "type": "multiple", "topic": "세 자리 수", "text": "백의 자리 숫자가 4, 십의 자리 숫자가 0, 일의 자리 숫자가 7인 수는?", "choices": ["470", "407", "740", "704"], "answer": "407" },
-    { "id": "e2-002", "type": "input", "topic": "두 자리 덧셈", "text": "36 + 47 = ?", "answer": "83" },
-    { "id": "e2-003", "type": "multiple", "topic": "두 자리 뺄셈", "text": "82 - 35 = ?", "choices": ["43", "47", "53", "57"], "answer": "47" },
-    { "id": "e2-004", "type": "input", "topic": "구구단", "text": "7 × 8 = ?", "answer": "56" },
-    { "id": "e2-005", "type": "multiple", "topic": "길이 측정", "text": "1m는 몇 cm인가요?", "choices": ["10cm", "50cm", "100cm", "1000cm"], "answer": "100cm" },
-    { "id": "e2-006", "type": "input", "topic": "시각과 시간", "text": "오전 9시에서 3시간 후는 오후 몇 시인가요? (숫자만 쓰세요)", "answer": "12" },
-    { "id": "e2-007", "type": "multiple", "topic": "곱셈", "text": "4 × 5 = ?", "choices": ["15", "20", "25", "30"], "answer": "20" },
-    { "id": "e2-008", "type": "input", "topic": "규칙 찾기", "text": "2, 5, 8, 11, □ — □에 알맞은 수는?", "answer": "14" }
+    {
+      "id": "e2-001",
+      "type": "multiple",
+      "topic": "세 자리 수",
+      "text": "백의 자리 숫자가 4, 십의 자리 숫자가 0, 일의 자리 숫자가 7인 수는?",
+      "choices": [
+        "470",
+        "407",
+        "740",
+        "704"
+      ],
+      "answer": "407"
+    },
+    {
+      "id": "e2-002",
+      "type": "input",
+      "topic": "두 자리 덧셈",
+      "text": "36 + 47 = ?",
+      "answer": "83"
+    },
+    {
+      "id": "e2-003",
+      "type": "multiple",
+      "topic": "두 자리 뺄셈",
+      "text": "82 - 35 = ?",
+      "choices": [
+        "43",
+        "47",
+        "53",
+        "57"
+      ],
+      "answer": "47"
+    },
+    {
+      "id": "e2-004",
+      "type": "input",
+      "topic": "구구단",
+      "text": "7 × 8 = ?",
+      "answer": "56"
+    },
+    {
+      "id": "e2-005",
+      "type": "multiple",
+      "topic": "길이 측정",
+      "text": "1m는 몇 cm인가요?",
+      "choices": [
+        "10cm",
+        "50cm",
+        "100cm",
+        "1000cm"
+      ],
+      "answer": "100cm"
+    },
+    {
+      "id": "e2-007",
+      "type": "multiple",
+      "topic": "곱셈",
+      "text": "4 × 5 = ?",
+      "choices": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "answer": "20"
+    },
+    {
+      "id": "e2-img-001",
+      "type": "multiple",
+      "topic": "도형 변의 수",
+      "difficulty": 2,
+      "text": "아래 도형의 변은 몇 개인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e2-img-001.png",
+      "choices": [
+        "3개",
+        "4개",
+        "5개",
+        "6개"
+      ],
+      "answer": "4개"
+    },
+    {
+      "id": "e2-img-002",
+      "type": "multiple",
+      "topic": "도형 이름",
+      "difficulty": 2,
+      "text": "사각형은 어느 것인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e2-img-002.png",
+      "choices": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)"
+      ],
+      "answer": "(c)"
+    },
+    {
+      "id": "e2-img-003",
+      "type": "multiple",
+      "topic": "시계 읽기",
+      "difficulty": 3,
+      "text": "시계가 나타내는 시각은?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e2-img-003.png",
+      "choices": [
+        "4시",
+        "4시 30분",
+        "5시",
+        "5시 30분"
+      ],
+      "answer": "4시 30분"
+    },
+    {
+      "id": "e2-img-004",
+      "type": "multiple",
+      "topic": "시계 읽기",
+      "difficulty": 2,
+      "text": "시계가 나타내는 시각은 몇 시인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e2-img-004.png",
+      "choices": [
+        "10시",
+        "11시",
+        "12시",
+        "1시"
+      ],
+      "answer": "11시"
+    },
+    {
+      "id": "e2-img-005",
+      "type": "multiple",
+      "topic": "막대그래프",
+      "difficulty": 3,
+      "text": "그래프에서 가장 많은 것은?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e2-img-005.png",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "e2-img-006",
+      "type": "multiple",
+      "topic": "길이 측정",
+      "difficulty": 3,
+      "text": "연필의 길이는 약 몇 cm인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e2-img-006.png",
+      "choices": [
+        "5 cm",
+        "6 cm",
+        "7 cm",
+        "8 cm"
+      ],
+      "answer": "6 cm"
+    },
+    {
+      "id": "e2-img-007",
+      "type": "multiple",
+      "topic": "규칙 찾기",
+      "difficulty": 2,
+      "text": "●, ○가 반복됩니다. ?에 들어갈 것은?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e2-img-007.png",
+      "choices": [
+        "●",
+        "○",
+        "△",
+        "□"
+      ],
+      "answer": "○"
+    },
+    {
+      "id": "e2-img-008",
+      "type": "input",
+      "topic": "길이 차이",
+      "difficulty": 2,
+      "text": "(a)와 (b)의 길이의 차는 몇 cm인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e2-img-008.png",
+      "answer": "2"
+    },
+    {
+      "id": "e2-img-009",
+      "type": "input",
+      "topic": "분류하기",
+      "difficulty": 3,
+      "text": "아래 그림에서 원은 모두 몇 개인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e2-img-009.png",
+      "answer": "3"
+    },
+    {
+      "id": "e2-img-010",
+      "type": "multiple",
+      "topic": "표 읽기",
+      "difficulty": 3,
+      "text": "표에서 가장 큰 수는 어느 항목인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e2-img-010.png",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "C"
+    }
   ]
 }
