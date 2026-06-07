@@ -98,7 +98,7 @@
       "id": "e5-img-001",
       "type": "multiple",
       "topic": "삼각형 넓이",
-      "difficulty": 5,
+      "difficulty": 8,
       "text": "삼각형 ABC의 넓이는 몇 cm²인가요?",
       "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-001.png",
       "choices": [
@@ -113,7 +113,7 @@
       "id": "e5-img-002",
       "type": "multiple",
       "topic": "평행사변형 넓이",
-      "difficulty": 5,
+      "difficulty": 8,
       "text": "평행사변형 ABCD의 넓이는 몇 cm²인가요?",
       "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-002.png",
       "choices": [
@@ -128,7 +128,7 @@
       "id": "e5-img-003",
       "type": "multiple",
       "topic": "직육면체 부피",
-      "difficulty": 5,
+      "difficulty": 8,
       "text": "직육면체의 부피는 몇 cm³인가요?",
       "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-003.png",
       "choices": [
@@ -143,7 +143,7 @@
       "id": "e5-img-004",
       "type": "multiple",
       "topic": "마름모 넓이",
-      "difficulty": 5,
+      "difficulty": 9,
       "text": "마름모의 넓이는 몇 cm²인가요?",
       "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-004.png",
       "choices": [
@@ -157,86 +157,80 @@
     {
       "id": "e5-img-005",
       "type": "multiple",
-      "topic": "대칭 도형",
-      "difficulty": 4,
-      "text": "이 도형은 직선 l에 대하여 어떤 도형인가요?",
+      "topic": "대칭 이동",
+      "difficulty": 8,
+      "text": "삼각형 ABC를 y축에 대하여 대칭이동한 삼각형을 A'B'C'라 할 때, B'의 좌표는?",
       "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-005.png",
       "choices": [
-        "선대칭 도형",
-        "점대칭 도형",
-        "대칭이 아님",
-        "회전대칭"
+        "(-1, 1)",
+        "(-3, 1)",
+        "(-2, 3)",
+        "(3, -1)"
       ],
-      "answer": "선대칭 도형"
+      "answer": "(-3, 1)"
     },
     {
       "id": "e5-img-006",
       "type": "multiple",
       "topic": "띠그래프",
-      "difficulty": 4,
-      "text": "그래프에서 B가 차지하는 비율은 몇 %인가요?",
+      "difficulty": 8,
+      "text": "전체 학생 수가 200명일 때, B에 해당하는 학생은 몇 명인가요?",
       "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-006.png",
       "choices": [
-        "20%",
-        "30%",
-        "40%",
-        "50%"
+        "40명",
+        "50명",
+        "60명",
+        "70명"
       ],
-      "answer": "30%"
+      "answer": "60명"
     },
     {
       "id": "e5-img-007",
       "type": "multiple",
-      "topic": "복합 도형",
-      "difficulty": 6,
-      "text": "직사각형 ABCD에서 빗금 친 삼각형 EBF의 넓이는 몇 cm²인가요?",
+      "topic": "복합 도형 넓이",
+      "difficulty": 8,
+      "text": "L자 모양 도형의 넓이는 몇 cm²인가요?",
       "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-007.png",
       "choices": [
-        "2 cm²",
-        "3 cm²",
-        "4 cm²",
-        "6 cm²"
+        "18 cm²",
+        "21 cm²",
+        "24 cm²",
+        "30 cm²"
       ],
-      "answer": "3 cm²"
+      "answer": "24 cm²"
     },
     {
       "id": "e5-img-008",
       "type": "multiple",
-      "topic": "삼각형 넓이",
-      "difficulty": 5,
-      "text": "삼각형 ABC의 넓이는 몇 cm²인가요?",
+      "topic": "복합 도형 넓이",
+      "difficulty": 9,
+      "text": "오각형 ABCDE의 넓이는 몇 cm²인가요?",
       "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-008.png",
       "choices": [
-        "20 cm²",
-        "25 cm²",
-        "30 cm²",
-        "60 cm²"
+        "36 cm²",
+        "40 cm²",
+        "42 cm²",
+        "48 cm²"
       ],
-      "answer": "30 cm²"
+      "answer": "42 cm²"
     },
     {
       "id": "e5-img-009",
       "type": "input",
       "topic": "이등변삼각형 둘레",
-      "difficulty": 5,
+      "difficulty": 8,
       "text": "이등변삼각형 ABC의 둘레는 몇 cm인가요?",
       "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-009.png",
       "answer": "16"
     },
     {
       "id": "e5-img-010",
-      "type": "multiple",
+      "type": "input",
       "topic": "사다리꼴 넓이",
-      "difficulty": 5,
-      "text": "사다리꼴 ABCD의 넓이는 몇 cm²인가요?",
+      "difficulty": 8,
+      "text": "사다리꼴 ABCD의 넓이가 35 cm²일 때, 높이를 구하세요.",
       "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-010.png",
-      "choices": [
-        "25 cm²",
-        "30 cm²",
-        "35 cm²",
-        "50 cm²"
-      ],
-      "answer": "35 cm²"
+      "answer": "5"
     }
   ]
 }
