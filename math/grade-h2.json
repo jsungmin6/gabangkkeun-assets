@@ -1,0 +1,14 @@
+{
+  "gradeId": "h2",
+  "label": "고등학교 2학년",
+  "questions": [
+    { "id": "h2-001", "type": "multiple", "topic": "지수법칙", "text": "2³ × 2⁴ = ?", "choices": ["64", "128", "256", "512"], "answer": "128" },
+    { "id": "h2-002", "type": "input", "topic": "로그", "text": "log₂8 = ?", "answer": "3" },
+    { "id": "h2-003", "type": "multiple", "topic": "삼각함수", "text": "sin30° + cos60° = ?", "choices": ["0", "1/2", "1", "√3/2"], "answer": "1" },
+    { "id": "h2-004", "type": "input", "topic": "등차수열", "text": "등차수열 2, 5, 8, 11, ... 의 제10항은?", "answer": "29" },
+    { "id": "h2-005", "type": "multiple", "topic": "등비수열", "text": "등비수열 2, 6, 18, 54, ... 의 공비는?", "choices": ["2", "3", "4", "6"], "answer": "3" },
+    { "id": "h2-006", "type": "input", "topic": "수열의 합", "text": "등차수열의 첫째항이 3, 공차가 4일 때 첫째항부터 제5항까지의 합은?", "answer": "55" },
+    { "id": "h2-007", "type": "multiple", "topic": "호도법", "text": "180°를 라디안으로 나타내면?", "choices": ["π/2", "π", "2π", "3π/2"], "answer": "π" },
+    { "id": "h2-008", "type": "input", "topic": "삼각방정식", "text": "sin90° + cos180° = ?", "answer": "0" }
+  ]
+}

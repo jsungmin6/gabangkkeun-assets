@@ -1,0 +1,14 @@
+{
+  "gradeId": "e5",
+  "label": "초등학교 5학년",
+  "questions": [
+    { "id": "e5-001", "type": "multiple", "topic": "약수", "text": "36의 약수가 아닌 것은?", "choices": ["4", "6", "8", "9"], "answer": "8" },
+    { "id": "e5-002", "type": "input", "topic": "배수", "text": "7의 배수 중 50에 가장 가까운 수는?", "answer": "49" },
+    { "id": "e5-003", "type": "multiple", "topic": "최대공약수", "text": "12와 18의 최대공약수는?", "choices": ["3", "4", "6", "9"], "answer": "6" },
+    { "id": "e5-004", "type": "input", "topic": "최소공배수", "text": "4와 6의 최소공배수는?", "answer": "12" },
+    { "id": "e5-005", "type": "multiple", "topic": "분수 덧셈", "text": "3/4 + 2/3 = ?", "choices": ["5/7", "5/12", "17/12", "11/12"], "answer": "17/12" },
+    { "id": "e5-006", "type": "multiple", "topic": "분수 곱셈", "text": "2/3 × 3/5 = ? (기약분수로 답하세요)", "choices": ["6/15", "2/5", "1/3", "4/15"], "answer": "2/5" },
+    { "id": "e5-007", "type": "multiple", "topic": "소수 곱셈", "text": "0.25 × 4 = ?", "choices": ["0.5", "0.75", "1", "1.25"], "answer": "1" },
+    { "id": "e5-008", "type": "multiple", "topic": "평균", "text": "5, 10, 15, 20의 평균은?", "choices": ["10", "11", "12.5", "15"], "answer": "12.5" }
+  ]
+}

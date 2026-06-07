@@ -1,0 +1,14 @@
+{
+  "gradeId": "m2",
+  "label": "중학교 2학년",
+  "questions": [
+    { "id": "m2-001", "type": "multiple", "topic": "연립방정식", "text": "연립방정식 x + y = 7, x - y = 3 의 해는?", "choices": ["x=4, y=3", "x=5, y=2", "x=3, y=4", "x=6, y=1"], "answer": "x=5, y=2" },
+    { "id": "m2-002", "type": "input", "topic": "부등식", "text": "부등식 2x - 3 > 7 의 해는 x > □ 이다. □에 알맞은 수는?", "answer": "5" },
+    { "id": "m2-003", "type": "multiple", "topic": "일차함수", "text": "일차함수 y = -x + 5의 x절편은?", "choices": ["3", "4", "5", "6"], "answer": "5" },
+    { "id": "m2-004", "type": "input", "topic": "기울기", "text": "두 점 (1, 3)과 (3, 7)을 지나는 직선의 기울기는?", "answer": "2" },
+    { "id": "m2-005", "type": "multiple", "topic": "확률", "text": "주사위 1개를 던질 때 3의 배수가 나올 확률은?", "choices": ["1/6", "1/3", "1/2", "2/3"], "answer": "1/3" },
+    { "id": "m2-006", "type": "input", "topic": "삼각형 닮음", "text": "삼각형 ABC와 삼각형 DEF가 닮음이고 닮음비가 2:3이다. AB=8일 때 DE의 길이는?", "answer": "12" },
+    { "id": "m2-007", "type": "multiple", "topic": "경우의 수", "text": "동전 3개를 동시에 던질 때 나올 수 있는 모든 경우의 수는?", "choices": ["4", "6", "8", "12"], "answer": "8" },
+    { "id": "m2-008", "type": "input", "topic": "식의 계산", "text": "3a²b × 2ab³ 을 계산하면 □a³b⁴ 이다. □에 알맞은 수는?", "answer": "6" }
+  ]
+}

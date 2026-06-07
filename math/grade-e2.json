@@ -1,0 +1,14 @@
+{
+  "gradeId": "e2",
+  "label": "초등학교 2학년",
+  "questions": [
+    { "id": "e2-001", "type": "multiple", "topic": "세 자리 수", "text": "백의 자리 숫자가 4, 십의 자리 숫자가 0, 일의 자리 숫자가 7인 수는?", "choices": ["470", "407", "740", "704"], "answer": "407" },
+    { "id": "e2-002", "type": "input", "topic": "두 자리 덧셈", "text": "36 + 47 = ?", "answer": "83" },
+    { "id": "e2-003", "type": "multiple", "topic": "두 자리 뺄셈", "text": "82 - 35 = ?", "choices": ["43", "47", "53", "57"], "answer": "47" },
+    { "id": "e2-004", "type": "input", "topic": "구구단", "text": "7 × 8 = ?", "answer": "56" },
+    { "id": "e2-005", "type": "multiple", "topic": "길이 측정", "text": "1m는 몇 cm인가요?", "choices": ["10cm", "50cm", "100cm", "1000cm"], "answer": "100cm" },
+    { "id": "e2-006", "type": "input", "topic": "시각과 시간", "text": "오전 9시에서 3시간 후는 오후 몇 시인가요? (숫자만 쓰세요)", "answer": "12" },
+    { "id": "e2-007", "type": "multiple", "topic": "곱셈", "text": "4 × 5 = ?", "choices": ["15", "20", "25", "30"], "answer": "20" },
+    { "id": "e2-008", "type": "input", "topic": "규칙 찾기", "text": "2, 5, 8, 11, □ — □에 알맞은 수는?", "answer": "14" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "gradeId": "e1",
+  "label": "초등학교 1학년",
+  "questions": [
+    { "id": "e1-001", "type": "multiple", "topic": "한 자리 덧셈", "text": "3 + 5 = ?", "choices": ["6", "7", "8", "9"], "answer": "8" },
+    { "id": "e1-002", "type": "input", "topic": "한 자리 뺄셈", "text": "9 - 4 = ?", "answer": "5" },
+    { "id": "e1-003", "type": "multiple", "topic": "받아올림", "text": "□ 안에 알맞은 수는? 7 + □ = 13", "choices": ["4", "5", "6", "7"], "answer": "6" },
+    { "id": "e1-004", "type": "input", "topic": "받아내림", "text": "15 - 8 = ?", "answer": "7" },
+    { "id": "e1-005", "type": "input", "topic": "두 자리 수 읽기", "text": "10이 5개인 수는 무엇인가요?", "answer": "50" },
+    { "id": "e1-006", "type": "multiple", "topic": "크기 비교", "text": "다음 중 가장 큰 수는?", "choices": ["39", "42", "28", "35"], "answer": "42" },
+    { "id": "e1-007", "type": "input", "topic": "시계 읽기", "text": "시계의 긴바늘이 12, 짧은바늘이 3을 가리키면 몇 시인가요? (숫자만 쓰세요)", "answer": "3" },
+    { "id": "e1-008", "type": "multiple", "topic": "모양 찾기", "text": "동그란 모양은 다음 중 어느 것인가요?", "choices": ["□", "△", "○", "☆"], "answer": "○" }
+  ]
+}

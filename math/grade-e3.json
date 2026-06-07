@@ -1,0 +1,14 @@
+{
+  "gradeId": "e3",
+  "label": "초등학교 3학년",
+  "questions": [
+    { "id": "e3-001", "type": "multiple", "topic": "나눗셈", "text": "72 ÷ 8 = ?", "choices": ["7", "8", "9", "10"], "answer": "9" },
+    { "id": "e3-002", "type": "multiple", "topic": "분수", "text": "피자 한 판을 똑같이 4조각으로 나누었습니다. 3조각을 먹었다면 먹은 양을 분수로 나타내면? (예: 1/4)", "choices": ["1/4", "2/4", "3/4", "4/4"], "answer": "3/4" },
+    { "id": "e3-003", "type": "multiple", "topic": "원", "text": "원의 중심에서 원 위의 한 점까지의 거리를 무엇이라 하나요?", "choices": ["지름", "반지름", "둘레", "넓이"], "answer": "반지름" },
+    { "id": "e3-004", "type": "input", "topic": "세 자리 덧셈", "text": "456 + 378 = ?", "answer": "834" },
+    { "id": "e3-005", "type": "multiple", "topic": "세 자리 뺄셈", "text": "803 - 547 = ?", "choices": ["246", "256", "266", "346"], "answer": "256" },
+    { "id": "e3-006", "type": "input", "topic": "들이", "text": "1L는 몇 mL인가요?", "answer": "1000" },
+    { "id": "e3-007", "type": "multiple", "topic": "무게", "text": "1kg은 몇 g인가요?", "choices": ["10g", "100g", "1000g", "10000g"], "answer": "1000g" },
+    { "id": "e3-008", "type": "input", "topic": "곱셈", "text": "15 × 6 = ?", "answer": "90" }
+  ]
+}

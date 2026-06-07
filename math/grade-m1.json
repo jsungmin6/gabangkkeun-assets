@@ -1,0 +1,14 @@
+{
+  "gradeId": "m1",
+  "label": "중학교 1학년",
+  "questions": [
+    { "id": "m1-001", "type": "multiple", "topic": "정수 덧셈", "text": "(-3) + (-8) = ?", "choices": ["-11", "-5", "5", "11"], "answer": "-11" },
+    { "id": "m1-002", "type": "input", "topic": "유리수 곱셈", "text": "(-5) × (-7) = ?", "answer": "35" },
+    { "id": "m1-003", "type": "multiple", "topic": "절댓값", "text": "|-6| + |3| = ?", "choices": ["3", "-3", "9", "-9"], "answer": "9" },
+    { "id": "m1-004", "type": "input", "topic": "일차방정식", "text": "일차방정식 3x - 7 = 14 의 해 x = ?", "answer": "7" },
+    { "id": "m1-005", "type": "multiple", "topic": "좌표", "text": "좌표평면에서 점 (-3, 4)는 제 몇 사분면에 있는가?", "choices": ["제1사분면", "제2사분면", "제3사분면", "제4사분면"], "answer": "제2사분면" },
+    { "id": "m1-006", "type": "input", "topic": "정비례", "text": "y가 x에 정비례하고 x=3일 때 y=12이다. x=5일 때 y의 값은?", "answer": "20" },
+    { "id": "m1-007", "type": "multiple", "topic": "반비례", "text": "y가 x에 반비례하고 x=2일 때 y=6이다. x=4일 때 y의 값은?", "choices": ["2", "3", "4", "6"], "answer": "3" },
+    { "id": "m1-008", "type": "input", "topic": "도수분포", "text": "도수분포표에서 계급의 크기가 10이고 계급이 10이상~20미만일 때, 이 계급의 계급값은?", "answer": "15" }
+  ]
+}

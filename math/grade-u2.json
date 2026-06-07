@@ -1,0 +1,98 @@
+{
+  "gradeId": "u2",
+  "label": "대학교 2학년",
+  "questions": [
+    {
+      "id": "u2-001",
+      "type": "multiple",
+      "topic": "편미분",
+      "text": "$f(x,y) = x^2y + 3xy^2$일 때, $$\\dfrac{\\partial f}{\\partial x}$$는?",
+      "choices": [
+        "$2xy + 3y^2$",
+        "$x^2 + 6xy$",
+        "$2xy + 6xy$",
+        "$2x + 3y$"
+      ],
+      "answer": "$2xy + 3y^2$"
+    },
+    {
+      "id": "u2-002",
+      "type": "input",
+      "topic": "이중적분",
+      "text": "$$\\int_0^1 \\int_0^1 (x+y) \\, dx \\, dy$$의 값은?",
+      "answer": "1"
+    },
+    {
+      "id": "u2-003",
+      "type": "multiple",
+      "topic": "고유값",
+      "text": "행렬 $\\begin{pmatrix} 3 & 0 \\\\ 0 & 5 \\end{pmatrix}$의 고유값은?",
+      "choices": [
+        "1과 3",
+        "3과 5",
+        "0과 8",
+        "2와 6"
+      ],
+      "answer": "3과 5"
+    },
+    {
+      "id": "u2-004",
+      "type": "input",
+      "topic": "라그랑주 승수",
+      "text": "$f(x,y)=xy$를 $x+y=10$ 조건에서 최대화할 때, $x$의 값은?",
+      "answer": "5"
+    },
+    {
+      "id": "u2-005",
+      "type": "multiple",
+      "topic": "미분방정식",
+      "text": "$y' = 2y$의 일반해는?",
+      "choices": [
+        "$y = Ce^{2x}$",
+        "$y = Ce^{-2x}$",
+        "$y = 2x + C$",
+        "$y = Cx^2$"
+      ],
+      "answer": "$y = Ce^{2x}$"
+    },
+    {
+      "id": "u2-006",
+      "type": "multiple",
+      "topic": "라플라스 변환",
+      "text": "$$\\mathcal{L}\\{e^{at}\\}$$는?",
+      "choices": [
+        "$\\dfrac{1}{s-a}$",
+        "$\\dfrac{1}{s+a}$",
+        "$\\dfrac{a}{s}$",
+        "$\\dfrac{s}{s-a}$"
+      ],
+      "answer": "$\\dfrac{1}{s-a}$"
+    },
+    {
+      "id": "u2-007",
+      "type": "multiple",
+      "topic": "정규분포",
+      "text": "표준정규분포 $N(0,1)$에서 평균으로부터 $\\pm 1\\sigma$ 안에 들어올 확률은 약?",
+      "choices": [
+        "50%",
+        "68%",
+        "95%",
+        "99%"
+      ],
+      "answer": "68%"
+    },
+    {
+      "id": "u2-008",
+      "type": "multiple",
+      "topic": "조건부 확률",
+      "text": "$P(A)=0.6$, $P(B|A)=0.5$일 때, $P(A \\cap B)$는?",
+      "choices": [
+        "0.1",
+        "0.3",
+        "0.5",
+        "0.55"
+      ],
+      "answer": "0.3"
+    }
+  ]
+}
