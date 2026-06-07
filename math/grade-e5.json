@@ -2,13 +2,241 @@
   "gradeId": "e5",
   "label": "초등학교 5학년",
   "questions": [
-    { "id": "e5-001", "type": "multiple", "topic": "약수", "text": "36의 약수가 아닌 것은?", "choices": ["4", "6", "8", "9"], "answer": "8" },
-    { "id": "e5-002", "type": "input", "topic": "배수", "text": "7의 배수 중 50에 가장 가까운 수는?", "answer": "49" },
-    { "id": "e5-003", "type": "multiple", "topic": "최대공약수", "text": "12와 18의 최대공약수는?", "choices": ["3", "4", "6", "9"], "answer": "6" },
-    { "id": "e5-004", "type": "input", "topic": "최소공배수", "text": "4와 6의 최소공배수는?", "answer": "12" },
-    { "id": "e5-005", "type": "multiple", "topic": "분수 덧셈", "text": "3/4 + 2/3 = ?", "choices": ["5/7", "5/12", "17/12", "11/12"], "answer": "17/12" },
-    { "id": "e5-006", "type": "multiple", "topic": "분수 곱셈", "text": "2/3 × 3/5 = ? (기약분수로 답하세요)", "choices": ["6/15", "2/5", "1/3", "4/15"], "answer": "2/5" },
-    { "id": "e5-007", "type": "multiple", "topic": "소수 곱셈", "text": "0.25 × 4 = ?", "choices": ["0.5", "0.75", "1", "1.25"], "answer": "1" },
-    { "id": "e5-008", "type": "multiple", "topic": "평균", "text": "5, 10, 15, 20의 평균은?", "choices": ["10", "11", "12.5", "15"], "answer": "12.5" }
+    {
+      "id": "e5-001",
+      "type": "multiple",
+      "topic": "약수",
+      "text": "36의 약수가 아닌 것은?",
+      "choices": [
+        "4",
+        "6",
+        "8",
+        "9"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": "e5-002",
+      "type": "input",
+      "topic": "배수",
+      "text": "7의 배수 중 50에 가장 가까운 수는?",
+      "answer": "49"
+    },
+    {
+      "id": "e5-003",
+      "type": "multiple",
+      "topic": "최대공약수",
+      "text": "12와 18의 최대공약수는?",
+      "choices": [
+        "3",
+        "4",
+        "6",
+        "9"
+      ],
+      "answer": "6"
+    },
+    {
+      "id": "e5-004",
+      "type": "input",
+      "topic": "최소공배수",
+      "text": "4와 6의 최소공배수는?",
+      "answer": "12"
+    },
+    {
+      "id": "e5-005",
+      "type": "multiple",
+      "topic": "분수 덧셈",
+      "text": "3/4 + 2/3 = ?",
+      "choices": [
+        "5/7",
+        "5/12",
+        "17/12",
+        "11/12"
+      ],
+      "answer": "17/12"
+    },
+    {
+      "id": "e5-006",
+      "type": "multiple",
+      "topic": "분수 곱셈",
+      "text": "2/3 × 3/5 = ? (기약분수로 답하세요)",
+      "choices": [
+        "6/15",
+        "2/5",
+        "1/3",
+        "4/15"
+      ],
+      "answer": "2/5"
+    },
+    {
+      "id": "e5-007",
+      "type": "multiple",
+      "topic": "소수 곱셈",
+      "text": "0.25 × 4 = ?",
+      "choices": [
+        "0.5",
+        "0.75",
+        "1",
+        "1.25"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "e5-008",
+      "type": "multiple",
+      "topic": "평균",
+      "text": "5, 10, 15, 20의 평균은?",
+      "choices": [
+        "10",
+        "11",
+        "12.5",
+        "15"
+      ],
+      "answer": "12.5"
+    },
+    {
+      "id": "e5-img-001",
+      "type": "multiple",
+      "topic": "삼각형 넓이",
+      "difficulty": 5,
+      "text": "삼각형 ABC의 넓이는 몇 cm²인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-001.png",
+      "choices": [
+        "15 cm²",
+        "20 cm²",
+        "25 cm²",
+        "40 cm²"
+      ],
+      "answer": "20 cm²"
+    },
+    {
+      "id": "e5-img-002",
+      "type": "multiple",
+      "topic": "평행사변형 넓이",
+      "difficulty": 5,
+      "text": "평행사변형 ABCD의 넓이는 몇 cm²인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-002.png",
+      "choices": [
+        "16 cm²",
+        "20 cm²",
+        "24 cm²",
+        "28 cm²"
+      ],
+      "answer": "24 cm²"
+    },
+    {
+      "id": "e5-img-003",
+      "type": "multiple",
+      "topic": "직육면체 부피",
+      "difficulty": 5,
+      "text": "직육면체의 부피는 몇 cm³인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-003.png",
+      "choices": [
+        "30 cm³",
+        "45 cm³",
+        "60 cm³",
+        "75 cm³"
+      ],
+      "answer": "60 cm³"
+    },
+    {
+      "id": "e5-img-004",
+      "type": "multiple",
+      "topic": "마름모 넓이",
+      "difficulty": 5,
+      "text": "마름모의 넓이는 몇 cm²인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-004.png",
+      "choices": [
+        "18 cm²",
+        "24 cm²",
+        "32 cm²",
+        "48 cm²"
+      ],
+      "answer": "24 cm²"
+    },
+    {
+      "id": "e5-img-005",
+      "type": "multiple",
+      "topic": "대칭 도형",
+      "difficulty": 4,
+      "text": "이 도형은 직선 l에 대하여 어떤 도형인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-005.png",
+      "choices": [
+        "선대칭 도형",
+        "점대칭 도형",
+        "대칭이 아님",
+        "회전대칭"
+      ],
+      "answer": "선대칭 도형"
+    },
+    {
+      "id": "e5-img-006",
+      "type": "multiple",
+      "topic": "띠그래프",
+      "difficulty": 4,
+      "text": "그래프에서 B가 차지하는 비율은 몇 %인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-006.png",
+      "choices": [
+        "20%",
+        "30%",
+        "40%",
+        "50%"
+      ],
+      "answer": "30%"
+    },
+    {
+      "id": "e5-img-007",
+      "type": "multiple",
+      "topic": "복합 도형",
+      "difficulty": 6,
+      "text": "직사각형 ABCD에서 빗금 친 삼각형 EBF의 넓이는 몇 cm²인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-007.png",
+      "choices": [
+        "2 cm²",
+        "3 cm²",
+        "4 cm²",
+        "6 cm²"
+      ],
+      "answer": "3 cm²"
+    },
+    {
+      "id": "e5-img-008",
+      "type": "multiple",
+      "topic": "삼각형 넓이",
+      "difficulty": 5,
+      "text": "삼각형 ABC의 넓이는 몇 cm²인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-008.png",
+      "choices": [
+        "20 cm²",
+        "25 cm²",
+        "30 cm²",
+        "60 cm²"
+      ],
+      "answer": "30 cm²"
+    },
+    {
+      "id": "e5-img-009",
+      "type": "input",
+      "topic": "이등변삼각형 둘레",
+      "difficulty": 5,
+      "text": "이등변삼각형 ABC의 둘레는 몇 cm인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-009.png",
+      "answer": "16"
+    },
+    {
+      "id": "e5-img-010",
+      "type": "multiple",
+      "topic": "사다리꼴 넓이",
+      "difficulty": 5,
+      "text": "사다리꼴 ABCD의 넓이는 몇 cm²인가요?",
+      "image": "https://jsungmin6.github.io/gabangkkeun-assets/math/images/e5-img-010.png",
+      "choices": [
+        "25 cm²",
+        "30 cm²",
+        "35 cm²",
+        "50 cm²"
+      ],
+      "answer": "35 cm²"
+    }
   ]
 }
